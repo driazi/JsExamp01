@@ -2,18 +2,28 @@
     font-family: 'FORTE';
     src: url('/fonts/FORTE.TTF') format('truetype');
 
+}
+
+
+@font-face {
     font-family: 'VLADIMIR';
     src: url('/fonts/VLADIMIR.TTF') format('truetype');
 
+}
+
+
+@font-face {
     font-family: 'segoe-ui';
     src: url('/fonts/segoe-ui.ttf') format('truetype');
+
 }
+
 
 
 body{
     margin: 0;
     padding: 0;
-    font-family: 'FORTE' , 'VLADIMIR' , 'segoe-ui';
+    font-family: 'VLADIMIR' , 'FORTE' , 'segoe-ui';
     background-color: #2c3e50;
     height: 100vh;
     display: flex;
@@ -29,6 +39,9 @@ body{
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 3px 3px 10px 20px #ffffff44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .topBox{
@@ -38,29 +51,13 @@ body{
     width:100px;
     height:70px;
     background-color: #e74c3c;
-    border-radius: 15px;
-}
-
-
-
-.b1{
-    position: absolute;
-       
-    top: 150px;
-    left: 100px;
-    color: #000000;
-
-}
-
-
-.c1{
-    position: absolute;
-       
-    top: 25px;
-    left: 35px;
     color: #ffffff;
-
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 .bottomBox{
@@ -70,19 +67,14 @@ body{
     width:150px;
     height:50px;
     background-color: #e74c3c;
-    border-radius: 15px;
-
-}
-
-
-.c2{
-    position: absolute;
-       
-    top: 15px;
-    left: 45px;
     color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 
 
 
